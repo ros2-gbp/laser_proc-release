@@ -1,1 +1,1 @@
-{"base": "13f5022", "parent": "debian/rolling/laser_proc", "previous": "32b6aea", "trim": "", "trimbase": ""}
+{"base": "edd8756", "parent": "debian/galactic/laser_proc", "previous": "bf612b2", "trim": "", "trimbase": ""}
