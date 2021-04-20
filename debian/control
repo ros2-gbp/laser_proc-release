@@ -1,0 +1,12 @@
+Source: ros-galactic-laser-proc
+Section: misc
+Priority: optional
+Maintainer: Chad Rockey <chadrockey@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-galactic-ament-cmake, ros-galactic-ament-lint-auto, ros-galactic-ament-lint-common, ros-galactic-class-loader, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-sensor-msgs, ros-galactic-ros-workspace
+Homepage: http://ros.org/wiki/laser_proc
+Standards-Version: 3.9.2
+
+Package: ros-galactic-laser-proc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-galactic-class-loader, ros-galactic-rclcpp, ros-galactic-rclcpp-components, ros-galactic-sensor-msgs, ros-galactic-ros-workspace
+Description: laser_proc
