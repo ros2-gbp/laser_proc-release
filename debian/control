@@ -1,0 +1,12 @@
+Source: ros-iron-laser-proc
+Section: misc
+Priority: optional
+Maintainer: Chad Rockey <chadrockey@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-ament-lint-auto <!nocheck>, ros-iron-ament-lint-common <!nocheck>, ros-iron-class-loader, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Homepage: http://ros.org/wiki/laser_proc
+Standards-Version: 3.9.2
+
+Package: ros-iron-laser-proc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-class-loader, ros-iron-rclcpp, ros-iron-rclcpp-components, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Description: laser_proc
