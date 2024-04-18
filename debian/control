@@ -1,0 +1,12 @@
+Source: ros-jazzy-laser-proc
+Section: misc
+Priority: optional
+Maintainer: Chad Rockey <chadrockey@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jazzy-ament-cmake, ros-jazzy-ament-lint-auto <!nocheck>, ros-jazzy-ament-lint-common <!nocheck>, ros-jazzy-class-loader, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Homepage: http://ros.org/wiki/laser_proc
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-laser-proc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jazzy-class-loader, ros-jazzy-rclcpp, ros-jazzy-rclcpp-components, ros-jazzy-sensor-msgs, ros-jazzy-ros-workspace
+Description: laser_proc
