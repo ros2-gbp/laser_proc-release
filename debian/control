@@ -1,0 +1,12 @@
+Source: ros-kilted-laser-proc
+Section: misc
+Priority: optional
+Maintainer: Chad Rockey <chadrockey@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-class-loader, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Homepage: http://ros.org/wiki/laser_proc
+Standards-Version: 3.9.2
+
+Package: ros-kilted-laser-proc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-class-loader, ros-kilted-rclcpp, ros-kilted-rclcpp-components, ros-kilted-sensor-msgs, ros-kilted-ros-workspace
+Description: laser_proc
