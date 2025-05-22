@@ -1,3 +1,26 @@
+## laser_proc (rolling) - 1.0.3-1
+
+The packages in the `laser_proc` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling laser_proc` on `Thu, 22 May 2025 08:50:15 -0000`
+
+The `laser_proc` package was released.
+
+Version of package(s) in repository `laser_proc`:
+
+- upstream repository: https://github.com/ros-perception/laser_proc.git
+- release repository: https://github.com/ros2-gbp/laser_proc-release.git
+- rosdistro version: `1.0.2-6`
+- old version: `1.0.2-6`
+- new version: `1.0.3-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## laser_proc (dashing) - 1.0.2-1
 
 The packages in the `laser_proc` repository were released into the `dashing` distro by running `/usr/bin/bloom-release --track dashing --rosdistro dashing laser_proc` on `Tue, 26 Jan 2021 17:50:15 -0000`
