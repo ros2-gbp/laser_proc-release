@@ -1,0 +1,12 @@
+Source: ros-lyrical-laser-proc
+Section: misc
+Priority: optional
+Maintainer: Chad Rockey <chadrockey@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-class-loader, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Homepage: http://ros.org/wiki/laser_proc
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-laser-proc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-class-loader, ros-lyrical-rclcpp, ros-lyrical-rclcpp-components, ros-lyrical-sensor-msgs, ros-lyrical-ros-workspace
+Description: laser_proc
